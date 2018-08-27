@@ -1,37 +1,38 @@
 ## VirVarDP
 
+Virus variant detection pipeline
+
+## Author
+
+Dechun Lin
+
 ### Introduction
 
-Virus variant detection pipeline
-A pipeline based on `python` to detect synonnymous or non-synonnymous substitutions within homologous gene of Virus complete genome, Developed by Dechun Lin.
+A pipeline based on `python` to detect synonnymous or non-synonnymous substitutions within homologous gene of Virus complete genome
 
 This lists the basic information for using [`VirVarDP`](https://github.com/lindechun/VirVarDP).
 
-### VirVarDP Installation Notes
-
-#### Required dependencies
+#### Requirements
 
 * A UNIX based operating system.
 
-* python 2.7 installed.
+* python 2.7
 
-* megacc
+* python packages: Biopython, scipy, pandas, statsmodels
+
+* [megacc](https://www.megasoftware.net/)
 
 #### Installation
 
-Download VirVarDP from GitHub:
+Download VirVarDP from GitHub. You'll need to add Prokka's bin directory to your $PATH.:
 
 ```
-git clone https://github.com/lindechun/VirVarDP
+git clone https://github.com/lindechun/VirVarDP.git
+/your/path/to/VirVarDP/VirVarDP.py -h
 ```
 
-And then, install required modules.
+You will nedd to install all the dependencies packages by `pip` or `conda`.
 
-```
-$ cd /your/path/to/VirVarDP/bin/
-$ conda install  dependencies.r
-```
-* you will need to add `/your/path/to/VirVarDP/bin/` to your PATH environment variable.
 
 ### Basic test data set
 

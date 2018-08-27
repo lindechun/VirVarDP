@@ -9,7 +9,7 @@ while read lines
 do
     DataId=`basename $lines .fa`
     DataDir=`dirname $lines`
-    python $dirpath/../bin/VirVarDP.py -i $lines -r LC002520 -I $dirpath/../data/SampleInfo.txt -g Lineage -o results/$DataId
+    python $dirpath/../bin/varintCalling.py -i $lines -r LC002520 -I $dirpath/../data/SampleInfo.txt -g Lineage -o results/$DataId
 done < data.list
 
 # Step02. Gather every gene's variant results
