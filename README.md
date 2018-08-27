@@ -64,10 +64,9 @@ optional arguments:
   -o OPATH         Path of Output File
 ```
 
-See `/your/path/to/VirVarDP/test/demo_*.sh` for example of variant calling of 100 Zika sequences.
+See `/your/path/to/VirVarDP/test/demo_*.sh` for example of variant calling about 100 Zika sequences.
 
 ```
 $ cat demo_python_flow.sh
 python ../bin/VirVarDP.py -i data.list -r LC002520 -I ../data/SampleInfo.txt -l ../data/eachGene.length.txt -j "C,prM,E,NS1,NS2A,NS2B,NS3,NS4A,NS4B,NS5" -g Lineage -o results -G 'NS4B:69' -p Zika
-
 ```
