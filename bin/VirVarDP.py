@@ -57,7 +57,7 @@ def main():
     os.system('mkdir '+Opath)
 
     ## Step01
-    print("# Step01. variant calling for individual genes")
+    print("\n# Step01. variant calling for individual genes")
 
     for i in open(falist,'r'):
         i=i.strip()

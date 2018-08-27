@@ -1,0 +1,24 @@
+# Step00. create results path
+mkdir results
+
+# Step01. variant calling for individual genes
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/C.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/C
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/E.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/E
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS1.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS1
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS2A.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS2A
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS2B.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS2B
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS3.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS3
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS4A.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS4A
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS4B.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS4B
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/NS5.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/NS5
+python /opt/bin/VirVarDP/bin/varintCalling.py -i ../data/fasta/prM.fa -r LC002520 -I ../data/SampleInfo.txt -g Lineage -o results/prM
+
+# Step02. Gather every gene's variant results
+## synonymous substitutions
+python /opt/bin/VirVarDP/bin/synonymous.substitutions.gather.py -i ../data/SampleInfo.txt -g Lineage -I results -l ../data/eachGene.length.txt -o 'C,prM,E,NS1,NS2A,NS2B,NS3,NS4A,NS4B,NS5' -r LC002520 -G 'NS4B:69' -p results/Zika
+
+## non-synonymous codon substitutions
+python /opt/bin/VirVarDP/bin/nonsynonymous.codon.substitutions.gather.py -i ../data/SampleInfo.txt -g Lineage -I results -l ../data/eachGene.length.txt -o 'C,prM,E,NS1,NS2A,NS2B,NS3,NS4A,NS4B,NS5' -r LC002520 -G 'NS4B:69' -p results/Zika
+
+## non-synonymous AminoAcid substitutions
+python /opt/bin/VirVarDP/bin/nonsynonymous.AminoAcid.substitutions.gather.py -i ../data/SampleInfo.txt -g Lineage -I results -l ../data/eachGene.length.txt -o 'C,prM,E,NS1,NS2A,NS2B,NS3,NS4A,NS4B,NS5' -r LC002520 -G 'NS4B:69' -p results/Zika
