@@ -1,0 +1,101 @@
+ID	Year	Strain	Host	Lineage	SubLineage	Region	Country	Note
+LC002520	1947	MR766-Simiiformes	Simiiformes	African	African	Africa	Uganda	
+KU955594	1947	MR766-Macaca	Macaca mulatta	African	African	Africa	Uganda	
+KF383118	2001	ArD157995	Aedes dalzieli	African	African	Africa	 Senegal	
+KF383119	2001	ArD158084	Aedes dalzieli	African	African	Africa	 Senegal	
+KF383115	1968	ArB1362	Aedes africanus	African	African	Africa	Central African Republic	
+KF268949	1980	ARB15076	Aedes opok	African	African	Africa	Central African Republic	
+KF268948	1976	ARB13565	Aedes africanus	African	African	Africa	Central African Republic	
+KF268950	1976	ARB7701	Aedes africanus	African	African	African	Central African Republic	
+HQ234500	1968	IbH_30656	Homo Sapiens	African	African	Africa	Nigeria	
+KF383116	1968	ArD7117	Aedes  luteocephalus	African	African	Africa	Senegal	
+HQ234501	1984	ArD_41519	Aedes africanus	African	African	Africa	 Senegal	
+KU955595	1984	41671-DAK	Aedes taylori	African	African	Africa	 Senegal	
+KU955592	1984	41662-DAK	Aedes taylori	African	African	Africa	 Senegal	
+KU955591	1984	41525-DAK	Aedes africanus	African	African	Africa	 Senegal	
+KX601166	1984	DakAr41524	Aedes africanus	African	African	Africa	 Senegal	
+KF383117	1997	ArD128000	Aedes luteocephalus	African	African	Africa	 Senegal	
+HQ234499	1966	P6-740	Aedes aegypti	Asian	South_Eastern_Asian	Asia	Malaysia	Ancestor strain for Asian lineages
+KU681082	2012	CPC-0740	Homo Sapiens	Asian	South_Eastern_Asian	Asia	Philippines	
+EU545988	2007	Yap2007	Homo Sapiens	Asian	South_Eastern_Asian	Oceania	Micronsia	First large outbreak in humans
+KU955593	2010	FSS13025	Homo Sapiens	Asian	South_Eastern_Asian	Asia	Cambodia	
+KX694532	2013	PLCal_ZV	Homo Sapiens	Asian	South_Eastern_Asian	Asia	Thailand	
+KU681081	2014	SV0127	Homo Sapiens	Asian	South_Eastern_Asian	Asia	Thailand	
+KX813683	2016	ZKA-16-097	Homo Sapiens	Asian	South_Eastern_Asian	Asia	Singapore	
+KX447517	2014	1_0038_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KU744693	2016	VE_Ganxian	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KX197192	2015	PE243	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU321639	2015	ZikaSPH2015	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU509998	2014	Haiti/1225/2014	Homo Sapiens	Asian	Oceania-American	North America	Haiti	
+KU527068	2015	Natal_RGN	Homo Sapiens	Asian	Oceania-American	South America	Brazil	microcephaly
+KX051563	2016	Haiti/1/2016	Homo Sapiens	Asian	Oceania-American	North America	Haiti	
+KX838906	2016	FL03M	Aedes aegypti	Asian	Oceania-American	North America	USA	
+KX673530	2016	PHE_semen_Guadeloupe	Homo Sapiens	Asian	Oceania-American	Europe	United Kingdom	
+KX838904	2016	FL01M	Aedes aegypti	Asian	Oceania-American	North America	USA	
+KX832731	2016	Hu0015SA	Homo Sapiens	Asian	Oceania-American	North America	USA	
+KX838905	2016	FL02M	Aedes aegypti	Asian	Oceania-American	North America	USA	
+KX842449	2016	ZF10.UR-010	Homo Sapiens	Asian	Oceania-American	North America	USA	
+KU853012	2016	PD1	Homo Sapiens	Asian	Oceania-American	Europe	Italy	
+KU853013	2016	PD2	Homo Sapiens	Asian	Oceania-American	Europe	Italy	
+KU729217	2015	BeH823339	Homo Sapiens	Asian	Oceania-American	South America	Brazil	microcephaly
+KX280026	2015	Paraiba_01	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KX056898	2016	GZ02	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU955590	2016	Z16019	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KX766028	2016	R114916	Homo Sapiens	Asian	Oceania-American	North America	Dominican Republic	
+KU740184	2016	GD01	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU761564	2016	GDZ16001	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU820898	2016	GZ01	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KX087101	2015	PRVABC59	Homo Sapiens	Asian	Oceania-American	North America	Puerto Rico	
+KU365778	2015	BeH819015	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU758877	2015	17271	Homo Sapiens	Asian	Oceania-American	South America	French Guiana	
+KU937936	2016	ZIKVNL00013	Homo Sapiens	Asian	Oceania-American	South America	Suriname	
+KU312312	2015	Z1106033	Homo Sapiens	Asian	Oceania-American	South America	Suriname	
+KU365779	2015	BeH819966	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU707826	2015	SSABR1	Homo Sapiens 	Asian	Oceania-American	South America	Brazil	
+KU365777	2015	BeH818995	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU365780	2015	BeH815744	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU870645	2016	FB-GWUH	Homo Sapiens	Asian	Oceania-American	North America	USA	microcephaly
+KX694534	2015	R103451	Homo Sapiens	Asian	Oceania-American	Central America	Honduras	
+KX262887	2016	103451	Homo Sapiens	Asian	Oceania-American	Central America	Honduras	
+KU501217	2015	8375	Homo Sapiens	Asian	Oceania-American	Central America	Guatemala	
+KU501216	2015	103344	Homo Sapiens	Asian	Oceania-American	Central America	Guatemala	
+KX766029	2016	R116265	Homo Sapiens	Asian	Oceania-American	North America	Mexico	
+KX446950	2016	MEX_2-81	Aedes sp.	Asian	Oceania-American	North America	Mexico	
+KX247632	2015	MEX_I_7	Homo Sapiens	Asian	Oceania-American	North America	Mexico	
+KX446951	2016	MEX_I-7	Aedes sp.	Asian	Oceania-American	North America	Mexico	
+KU940228	2015	Bahia07	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KX520666	2015	HS-2015-BA-01	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU729218	2015	BeH828305	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KX197205	2015	9	Homo Sapiens	Asian	Oceania-American	South America	Brazil	
+KU497555	2015	Brazil-ZKV2015	Homo Sapiens	Asian	Oceania-American	South America	Brazil	microcephaly -
+KU991811	2016	INMI1	Homo Sapiens	Asian	Oceania-American	Europe	Italy	
+KX548902	2015	FCC00093	Homo Sapiens	Asian	Oceania-American	North America	Colombia	
+KU647676	2015	MRS_OPY_Martinique_PaRi_2015	Homo Sapiens	Asian	Oceania-American	North America	Martinique	
+KU922923	2016	Lm	Homo Sapiens	Asian	Oceania-American	North America	Mexica	
+KU922960	2016	Sm	Homo Sapiens	Asian	Oceania-American	North America	Mexico	
+KX198135	2016	BEI-259634_V4	Homo Sapiens	Asian	Oceania-American	Central America	Panama	
+KX702400	2016	UF-1	Homo Sapiens	Asian	Oceania-American	South America	Venezuela	
+KX247646	2016	UF-1	Homo Sapiens	Asian	Oceania-American	North America	Colombia	
+KX087102	2015	COL_FLR	Homo Sapiens	Asian	Oceania-American	North America	Colombia	
+KU820897	2015	FLR	Homo Sapiens	Asian	Oceania-American	North America	Colombia	
+KX156775	2015	CDC-259249_V1-V3	Homo Sapiens	Asian	Oceania-American	Central America	Panama	
+KX156774	2015	CDC-259359_V1-V3	Homo Sapiens	Asian	Oceania-American	Central America	Panama	
+KX156776	2015	CDC-259364_V1-V2	Homo Sapiens	Asian	Oceania-American	Central America	Panama	
+KX447510	2013	1_0049_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447511	2014	1_0015_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX369547	2013	PF13/251013-18	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447512	2013	1_0181_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447513	2013	1_0134_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX117076	2016	Zhejiang04	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU866423	2016	SZ01	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU955589	2016	Z16006	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KX266255	2016	ZIKV_SMGC-1	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU820899	2016	ZJ03	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KX185891	2016	SZ02	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KU963796	2016	SZ-WIV01	Homo Sapiens	Asian	Oceania-American	Asia	China	
+KX806557	2016	TS17-2016	Homo Sapiens	Asian	Oceania-American	Oceania	Australia	
+KJ776791	2013	H/PF/2013	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447516	2014	1_0111_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447515	2013	1_0030_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447514	2014	1_0035_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
+KX447509	2013	1_0087_PF	Homo Sapiens	Asian	Oceania-American	Oceania	French Polynesia	
