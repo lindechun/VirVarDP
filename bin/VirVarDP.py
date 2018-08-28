@@ -14,7 +14,7 @@ import re,sys,os
 
 def parseCommand():
     parser = ArgumentParser(description='The flow of Virus variant detection pipeline',version='1.0.0')
-    parser.add_argument('-i', action='store', dest='falist', help='a list file consists of individual Genes, based codon align (megacc)')
+    parser.add_argument('-i', action='store', dest='falist', help='a list consists of individual Genes fa, based on codon align (megacc)')
     parser.add_argument('-r', action='store', dest='reference',default='the first sequence in inFa', help='which sample id regard as reference')
     parser.add_argument('-I', action='store', dest='info', help='sample info table')
     parser.add_argument('-l', action='store', dest='GeneLength', help='eachGene.length.txt')
@@ -22,8 +22,9 @@ def parseCommand():
     parser.add_argument('-g', action='store', dest='groupColumns',help='the columns of info table, which is the groups of sample')
     parser.add_argument('-G', action='store', dest='Gap', default="0", help='The gaps before specific gene. eg: \'**:40,**:50\'')
     parser.add_argument('-j', action='store', dest='OrderGenes',default='', help='The order of genes')
-    parser.add_argument('-p', action='store', dest='Prefix', help='Output file prefix')
     parser.add_argument('-o', action='store', dest='Opath', help='Path of Output File')
+    parser.add_argument('-p', action='store', dest='Prefix', help='Output file prefix')
+
     return parser.parse_args()
 
 def main():
