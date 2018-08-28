@@ -11,15 +11,6 @@ __email__ = "lindechun@genomics.cn"
 
 from argparse import ArgumentParser
 import re,sys,os
-# import pandas as pd
-# import numpy as np
-# from Bio import SeqIO,AlignIO
-# from Bio.Seq import Seq,translate,reverse_complement
-# from Bio.Data import CodonTable
-# from subprocess import Popen,PIPE
-# from scipy.stats import fisher_exact,chi2_contingency
-# import statsmodels.stats.multitest as ssm
-# from collections import Counter
 
 def parseCommand():
     parser = ArgumentParser(description='The flow of Virus variant detection pipeline',version='1.0.0')

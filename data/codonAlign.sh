@@ -1,1 +1,1 @@
-python ../bin/codonAlign.py data/raw_fasta fasta
+python ../bin/codonAlign.py rawFasta fasta
