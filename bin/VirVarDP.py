@@ -48,13 +48,14 @@ def main():
     print('mkdir '+Opath)
     os.system('mkdir '+Opath)
 
+    dirpath=os.path.dirname(os.path.realpath(__file__))
+
     ## Step01
     print("\n# Step01. variant calling for individual genes")
 
     for i in open(falist,'r'):
         i=i.strip()
         geneID=os.path.basename(i).split('.')[0]
-        dirpath=os.path.dirname(os.path.realpath(__file__))
 
         variantCalling="python {0}/varintCalling.py -i {1} -r {2} -I {3} -g {4} -o {5}".format(dirpath,i,reference,info,groupColumns,Opath+'/'+geneID)
         print(variantCalling)
