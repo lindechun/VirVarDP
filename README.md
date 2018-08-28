@@ -24,7 +24,7 @@ This lists the basic information for using [`VirVarDP`](https://github.com/linde
 
 ## Installation
 
-Download VirVarDP from GitHub. You'll need to add Prokka's bin directory to your $PATH.:
+Download VirVarDP from GitHub. You'll need to add VirVarDP's bin directory to your $PATH.:
 
 ```
 git clone https://github.com/lindechun/VirVarDP.git
