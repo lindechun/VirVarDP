@@ -6,6 +6,11 @@ Virus variant detection pipeline
 
 Dechun Lin
 
+## Citation
+Please cite the following article when using ggtree:
+
+**Lin, D.**, Li, L., Xie, T., et al. (2018). Codon usage variation of Zika virus: The potential roles of NS2B and NS4A in its global pandemic. ***Virus research*** 247, 71-83. [Article Link](https://www.sciencedirect.com/science/article/pii/S016817021730597X?via%3Dihub)
+
 ## Introduction
 
 A pipeline based on `python` to detect synonnymous or non-synonnymous substitutions within homologous gene of Virus complete genome
